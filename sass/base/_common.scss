@@ -38,7 +38,7 @@ button {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -49,19 +49,15 @@ body {
 
 /* -----Container----- */
 .container {
-  max-width: 1200px;
+  max-width: 480px;
   min-width: 320px;
   margin: 0 auto;
   padding: 0 15px;
 
-  // @media screen and (min-width: 480px) {
-  //   width: 480px;
-  // }
-
   @media screen and (min-width: $tablet) {
     max-width: 768px;
   }
-    
+
   @media screen and (min-width: $desktop) {
     max-width: 1200px;
   }
@@ -81,18 +77,17 @@ body {
 }
 
 .container--footer {
-  @media screen and (min-width: $tablet) {  
+  @media screen and (min-width: $tablet) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  
+
   @media screen and (min-width: $desktop) {
     display: flex;
     align-items: baseline;
   }
-} 
-
+}
 
 /* -----Visually hidden----- */
 .visually-hidden {
